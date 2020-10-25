@@ -1,0 +1,48 @@
+/*Nos usamos diferentes arquivos para diferentes paginas para uma melhor organizacao*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* -- Altura*/
+    width: 100vw; /* -- Largura*/
+    background-color: #53c794;
+}
+
+.card {
+    width: 25%;
+    height: 65%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.card h1{
+    text-align: center;
+    color: gray;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.card input, button {
+    display: block;
+    width: 80%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 16px auto 0px;
+    padding: 12px;
+}
+
+.card button {
+    background-color: #53c794;
+    color: white;
+    font-weight: bold;
+}
+
+.card a {
+    display: block;
+    width: 80%;
+    margin: 8px auto 0px;
+    font-size: 14px;
+}

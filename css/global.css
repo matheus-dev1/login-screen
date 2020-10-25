@@ -1,0 +1,22 @@
+/*Neste arqivo CSS nos usaremos estilizacoes que serao usadas em todas as paginas.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Ubuntu:wght@500;700&display=swap');
+/*Aqui nos fizemos um import para que nos podemos usar a font UBUNTU, e como esta esta no nosso arquivo css
+global, entao todas as nossas paginas possui esta font*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*O espacamento externo fica restrito ao conteudo do elemento (padding e margin)*/
+}
+a {
+    text-decoration: none;
+    color: #007bef;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+}
