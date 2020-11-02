@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<!-- Normalemente quando estamos rodando um arquivo HTML em um servidor se nos fizermos uma atualizacao no documento e tentar atualizar pode ser que nao de certo.
+Para que de certo nos temos que atualizar a pagina e a o cache de memoria com o comando CTRL + F5-->
+
 <html>
     <head>
         <meta lang="pt-br">
@@ -23,7 +26,7 @@
                         <button>Entrar</button>
                     </form>
 
-                    <a href="./cadastro.html">Ainda nao possui cadastro? Clique aqui!</a>
+                    <a href="./cadastro.php">Ainda nao possui cadastro? Clique aqui!</a>
                 </div>
             </section>
             <section class="painel-imagem">

@@ -20,7 +20,7 @@
                     <input type="password" placeholder="Digite a sua senha">
                     <input type="password" placeholder="Confirme a sua senha">
                     <button>Cadastre-se</button>
-                    <a href="index.html">Ja possui cadastro? Realize o login!</a>
+                    <a href="index.php">Ja possui cadastro? Realize o login!</a>
                 </form>
             </div>
         </main>
